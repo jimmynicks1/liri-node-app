@@ -28,9 +28,6 @@ else if (liriCommand === "do-what-it-says") {
 	logData("liri command: do-what-it-says");
 	doWhatItSays();
 }
-else if (liriCommand === "help") {
-	showHelp();
-}
 else {
 	console.log("error");
 }
