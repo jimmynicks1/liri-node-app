@@ -1,0 +1,25 @@
+{
+  "name": "liri-node-app",
+  "version": "1.0.0",
+  "description": "Twitter Node-Spotify-API Request You'll use Request to grab data from the OMDB API. DotEnv Instructions Navigate to the root of your project and run npm init -y — this will initialize a package.json file for your project. The package.json file is required for installing third party npm packages and saving their version numbers. If you fail to initialize a package.json file, it will be troublesome, and at times almost impossible for anyone else to run your code after cloning your project. Make a .gitignore file and add the following lines to it. This will tell git not to track these files, and thus they won't be committed to Github.",
+  "main": "keys.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jimmynicks1/liri-node-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jimmynicks1/liri-node-app/issues"
+  },
+  "homepage": "https://github.com/jimmynicks1/liri-node-app#readme",
+  "dependencies": {
+    "dotenv": "^6.0.0",
+    "spotify": "^0.3.0",
+    "twitter": "^1.7.1"
+  }
+}
